@@ -1,0 +1,27 @@
+{
+    "name": "nguemoue/prompt-diet",
+    "description": "Zero-dependency PHP tool that prices a bloated AI prompt and cuts the fat. CLI, CI gate, and a local receipt UI.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "bin": [
+        "bin/prompt-diet"
+    ],
+    "autoload": {
+        "psr-4": {
+            "PromptDiet\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "keywords": [
+        "llm",
+        "tokens",
+        "prompt",
+        "cli",
+        "php"
+    ]
+}
